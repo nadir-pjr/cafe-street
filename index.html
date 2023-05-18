@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./assest/coffee-cup-1.png" type="image/x-icon">
+    <title>Cafe Street</title>
+</head>
+<body>
+    
+    <header>
+
+    <nav>
+        <div class="navbar">
+            <div class="navbar-logo">
+                <img src="./assest/logo_coffe.png" alt="">
+            </div>
+            <div class="navbar-links" id="navbar-links">
+                <li><a class="active" href="#">About Us</a></li>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="#">Delivery</a></li>
+            </div>
+            <div class="navbar-search-cart">
+                <div class="navbar-search">
+                    <img src="./assest/akar-icons_search.png" alt="">
+                    <input type="search" name="search" id="search" placeholder="Search here ...">
+                </div>
+                <div class="navbar-cart">
+                    <img src="./assest/icons_cart.png" alt="">
+                </div>
+                <div class="menu-icon" onclick="myFunction()">
+                    <i class="bi bi-list" id="menu_icon"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Text and image -->
+
+    <div class="header-content">
+        <div class="header-content-text">
+            <h1>Enjoy your <span>Coffee</span> <br> before your activity</h1>
+            <p>Boost your productivity and build your <br> mood with a glass of coffee in the morning</p>
+            <div class="header-content-text-button">
+                <div>
+                    <p><a href="#">Order Now <img src="./assest/cart-menu.png" ></a></p>
+                </div>
+                <div>
+                    <p><a href="#">More Menu</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="header-content-img">
+            <img src="./assest/cafe-glass.png" alt="">
+            <p class="cappuccino">Cappuccino</p>
+            <p class="price">18 k</p>
+            <p class="star">4.8 <i class="bi bi-star-fill"></i></p>
+        </div>
+    </div>
+
+    </header>
+
+    <!-- Popular Now Part  -->
+
+    <div id="popular-now">
+        <h1>Popular <span>Now</span></h1>
+        <div class="popular-now-content">
+
+            <div class="popular-part">
+                <div class="popular-part-pic">
+                    <img src="./assest/vanilla-late.png" alt="">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                </div>
+                <div class="popular-part-text">
+                    <div class="popular-part-text-left">
+                        <p>Vanilla Late</p>
+                        <a class="active" href="#">Hot</a>
+                        <a href="#">cold</a>
+                    </div>
+                    <div class="popular-part-text-price">
+                        <p>21 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="popular-part">
+                <div class="popular-part-pic">
+                    <img src="./assest/espresso.png" alt="">
+                    <div class="popular-now-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="popular-part-text">
+                    <div class="popular-part-text-left">
+                        <p>Espresso</p>
+                        <a href="#">Hot</a>
+                        <a href="#">cold</a>
+                    </div>
+                    <div class="popular-part-text-price">
+                        <p>12 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="popular-part">
+                <div class="popular-part-pic">
+                    <img src="./assest/hazelnut-latte.png" alt="">
+                    <div class="popular-now-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="popular-part-text">
+                    <div class="popular-part-text-left">
+                        <p>Hazelnut Latte</p>
+                        <a href="#">Hot</a>
+                        <a href="#">cold</a>
+                    </div>
+                    <div class="popular-part-text-price">
+                        <p>23 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- delivery services part  -->
+
+    <div id="delivery-part">
+        <h1>How to use delivery <span>services</span></h1>
+
+        <div class="delivery-parts">
+            <div class="delivery-part-1">
+                <img src="./assest/coffee-cup-1.png" alt="">
+                <h3>choose your coffee</h3>
+                <p>there are 20+ coffees for you</p>
+            </div>
+    
+            <div class="delivery-part-1">
+                <img src="./assest/food-truck-1.png" alt="">
+                <h3>we delivery it to you</h3>
+                <p>choose delivery service</p>
+            </div>
+    
+            <div class="delivery-part-1">
+                <img src="./assest/coffee-cup-1.png" alt="">
+                <h3>enjoy your coffee</h3>
+                <p>choose delivery service</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About us  -->
+
+    <div id="about-coffee">
+        <div class="about-content">
+            <div class="about-content-pic">
+                <img src="./assest/cafe-glass-2.png" alt="">
+            </div>
+            <div class="about-content-text">
+                <h1>About <span>us</span></h1>
+                <h3>We provide quality coffee, and ready to deliver.</h3>
+                <p>we are a company that make and distributes delicious drinks. our main product is made with a secret recipe and
+                    available in stores worldwide.</p>
+                    <a href="#">Get Your Coffee</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- special menu  -->
+
+    <div id="special-menu">
+        <h1>Special menu <span>for you</span></h1>
+
+        <div class="special-menu-content">
+
+            <div class="special-menu-part">
+                <div class="special-part-pic">
+                    <img src="./assest/sandwich.png" alt="">
+                    <div class="special-menu-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="special-part-text">
+                    <div class="special-part-text-left">
+                        <h3>Sandwich</h3>
+                        <p>bread with meat <br> and vegetables</p>
+                    </div>
+                    <div class="special-part-text-price">
+                        <p>12 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="special-menu-part">
+                <div class="special-part-pic">
+                    <img src="./assest/hot-milk.png" alt="">
+                    <div class="special-menu-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="special-part-text">
+                    <div class="special-part-text-left">
+                        <h3>HotMilk</h3>
+                        <p>Hot Milk with <br> Less Sugar</p>
+                    </div>
+                    <div class="special-part-text-price">
+                        <p>12 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="special-menu-part">
+                <div class="special-part-pic">
+                    <img src="./assest/cafe-ice-cream.png" alt="">
+                    <div class="special-menu-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="special-part-text">
+                    <div class="special-part-text-left">
+                        <h3>Coffee Ice Cream</h3>
+                        <p>Coffee ice cream with <br> vanilla</p>
+                    </div>
+                    <div class="special-part-text-price">
+                        <p>12 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <div class="special-menu-content">
+
+            <div class="special-menu-part">
+                <div class="special-part-pic">
+                    <img src="./assest/cappucino.png" alt="">
+                    <div class="special-menu-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="special-part-text">
+                    <div class="special-part-text-left">
+                        <h3>Cappuccino</h3>
+                        <p>Hot Cappuccino</p>
+                    </div>
+                    <div class="special-part-text-price">
+                        <p>12 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="special-menu-part">
+                <div class="special-part-pic">
+                    <img src="./assest/moccacinu.png" alt="">
+                    <div class="special-menu-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="special-part-text">
+                    <div class="special-part-text-left">
+                        <h3>Moccaccinu</h3>
+                        <p>Hot Moccaccinu</p>
+                    </div>
+                    <div class="special-part-text-price">
+                        <p>12 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="special-menu-part">
+                <div class="special-part-pic">
+                    <img src="./assest/waffle.png" alt="">
+                    <div class="special-menu-star-pic">
+                    <p>4.8 <i class="bi bi-star-fill"></i> </p>
+                    </div>
+                </div>
+                <div class="special-part-text">
+                    <div class="special-part-text-left">
+                        <h3>Waffle Ice cream</h3>
+                        <p>Waffle with ice cream</p>
+                    </div>
+                    <div class="special-part-text-price">
+                        <p>12 K</p>
+                        <a class="i bi bi-cart cart-icons" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <!-- testimonials  -->
+
+    <div id="testimonials">
+        <div class="testimonials-content">
+            <div class="testimonials-text">
+                <h1>What they say about us</h1>
+                <p>we always provide the best services and always maintain the quality of coffee.</p>
+            </div>
+            <div class="testimonials-parts">
+                
+                <div class="testimonials-part">
+                    <img src="./assest/naura.png" alt="">
+                    <div class="testimonials-part-text">
+                        <h3>Naura</h3>
+                        <p>I really love the cappuccino, the coffee was very smooth</p>
+                    </div>
+                </div>
+
+                <div class="testimonials-part">
+                    <img src="./assest/john.png" alt="">
+                    <div class="testimonials-part-text">
+                        <h3>John</h3>
+                        <p>This coffee shop is very <br> convenient</p>
+                    </div>
+                </div>
+
+                <div class="testimonials-part">
+                    <img src="./assest/azura.png" alt="">
+                    <div class="testimonials-part-text">
+                        <h3>Azura</h3>
+                        <p>The coffee menu here is very much</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- subscribe  -->
+
+    <div id="subscribe">
+        <div class="subscribe-banner">
+            <h1>Subscribe to get 50% discount price </h1>
+            <input type="email" name="email" id="email" placeholder="Enter your email...">
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
